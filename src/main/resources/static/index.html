@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>You first Spring application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<form action="/employees/" method="GET">
+    <button>List Employees</button>
+</form>
+
+<form action="/employees/addEmployee" method="POST">
+    <p>Let's add an employee.</p>
+
+    <div>
+        <label for="firstName">First name:</label>
+        <input name="firstName" id="firstName" value="Homer">
+    </div>
+    <div>
+        <label for="lastName">Last name:</label>
+        <input name="lastName" id="lastName" value="Simpson">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input name="email" id="email" value="email@email.com">
+    </div>
+    <div>
+        <button>Add employee</button>
+    </div>
+</form>
+
+
+</body>
+</html>
